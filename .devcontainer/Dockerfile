@@ -61,3 +61,4 @@ ENV LANG=en_US.UTF-8
 USER dev
 RUN sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 ENV DEBIAN_FRONTEND=
+USER root
